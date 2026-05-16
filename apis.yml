@@ -1,17 +1,82 @@
 aid: bloomingdales
 url: https://raw.githubusercontent.com/api-evangelist/bloomingdales/refs/heads/main/apis.yml
-name: Bloomingdales
+name: Bloomingdale's
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Retail
   - Fashion
   - Department Store
-description: 'An American luxury department store chain owned by Macy''s Inc. Known for its upscale fashion, beauty, and home furnishings across flagship and outlet locations.'
+  - Luxury
+description: >-
+  Bloomingdale's is an American luxury department store chain and a
+  subsidiary of Macy's, Inc. Bloomingdale's does not publish a public
+  developer portal; partner integration is delivered through the parent
+  Macy's Inc. vendor and trade partner programs, drop-ship and EDI channels
+  with suppliers, the Bloomingdale's affiliate program for marketing
+  partners, and the shared Macy's Inc. technology platform powering
+  Bloomingdale's commerce, loyalty, and fulfillment.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
-    url: https://www.walmart.com/
+    url: https://www.bloomingdales.com/
+  - type: ParentCompany
+    url: https://www.macysinc.com/
+  - type: VendorRelations
+    url: https://www.bloomingdales.com/b/contact-us-vendor-faq/
+  - type: Affiliate
+    url: https://www.bloomingdales.com/c/affiliate-program/
+  - type: CorporateSales
+    url: https://www.bloomingdales.com/b/bloomingdales-corporate/
+  - type: Loyalty
+    url: https://www.bloomingdales.com/c/loyallist/
+  - type: PrivacyPolicy
+    url: https://customerservice-bloomingdales.com/app/answers/detail/a_id/2167/~/privacy-notice
+  - type: TermsOfService
+    url: https://customerservice-bloomingdales.com/app/answers/detail/a_id/1075
+  - type: Contact
+    url: https://customerservice-bloomingdales.com/app/answers/list/
+  - type: Features
+    data:
+      - name: Affiliate Marketing Program
+        description: Bloomingdale's runs an affiliate program for media, review sites, and influencers, administered through major affiliate networks.
+      - name: Vendor and Drop-Ship Integration
+        description: Suppliers integrate with Bloomingdale's via the shared Macy's Inc. vendor program, exchanging purchase orders, ASNs, invoices, and drop-ship orders over EDI.
+      - name: Loyallist Program
+        description: The Loyallist loyalty program rewards customers across Bloomingdale's stores and online, with point accrual and redemption managed inside Bloomingdale's commerce platform.
+      - name: Corporate and Bulk Gifting
+        description: Bloomingdale's offers a corporate sales program for bulk gifting and incentive purchases.
+      - name: Macy's Inc. Shared Platform
+        description: Commerce, fulfillment, and customer-data services are operated by parent Macy's Inc. on a shared technology platform.
+  - type: UseCases
+    data:
+      - name: Affiliate Commerce
+        description: Publishers, review sites, and influencers monetize Bloomingdale's traffic via affiliate links and commission.
+      - name: Brand Vendor Integration
+        description: Luxury and fashion brands integrate with Bloomingdale's drop-ship and wholesale flows via the Macy's Inc. vendor program.
+      - name: Loyalty Program Engagement
+        description: Loyallist members accrue and redeem rewards across in-store and online shopping.
+      - name: Corporate Gifting Programs
+        description: Businesses purchase bulk gifts and incentives through Bloomingdale's corporate sales program.
+  - type: Compliance
+    data:
+      - name: PCI DSS
+        description: Payment-card processing for in-store and online purchases conforms to the Payment Card Industry Data Security Standard.
+      - name: CCPA / CPRA
+        description: California consumer privacy rights are honored under the California Consumer Privacy Act as amended by the CPRA.
+      - name: NY SHIELD Act
+        description: New York State data security obligations apply under the SHIELD Act given Bloomingdale's New York flagship presence.
+      - name: ADA / WCAG
+        description: Bloomingdale's digital surfaces target accessibility consistent with the Americans with Disabilities Act and WCAG guidelines.
+      - name: FTC Endorsement Guides
+        description: Affiliate and influencer relationships follow FTC Endorsement Guide disclosure rules.
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Consuming
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
