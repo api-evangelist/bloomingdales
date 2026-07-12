@@ -21,6 +21,8 @@ modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/bloomingdales-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/bloomingdales
   - type: Website
